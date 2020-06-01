@@ -1,0 +1,37 @@
+html {
+  font-size: large;
+  font-weight: 500;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(200, 153, 65, 0.9);
+  background-image: url(./image/steklyannaya-mozaika-leon-mix4-velsy-mozaik.ua_.jpg);
+}
+body {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  color: chartreuse;
+}
+.link:hover {
+  color: red;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+li + li {
+  margin-left: 15px;
+}
+div {
+  padding: 10px;
+  background-color: rgba(83, 125, 144, 0.8);
+  display: block;
+  width: 500px;
+  text-align: center;
+  margin: 30px;
+}
