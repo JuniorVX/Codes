@@ -6,12 +6,15 @@ html {
   background-color: rgba(159, 210, 83, 0.9);
   background-image: url(./steklyannaya-mozaika-leon-mix4-velsy-mozaik.ua_.jpg);
 }
-body {
+main {
   width: 1200px;
+  margin-left: 100px;
+  margin-right: 100px;
   display: flex;
   flex-direction: row;
   align-content: flex-start;
   align-items: flex-start;
+  background-color: none;
 }
 .link {
   text-decoration: none;
@@ -19,6 +22,24 @@ body {
 }
 .link:hover {
   color: red;
+}
+article {
+  padding-left: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: rgba(83, 125, 144, 0.8);
+  display: block;
+  width: 500px;
+  text-align: center;
+}
+.main-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.main-link:hover {
+  color: rgb(0, 0, 0);
 }
 section {
   display: flex;
