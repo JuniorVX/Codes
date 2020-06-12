@@ -16,6 +16,16 @@ main {
   align-items: flex-start;
   background-color: none;
 }
+footer {
+  width: 1200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: flex-start;
+  background-color: none;
+}
 .link {
   text-decoration: none;
   color: chartreuse;
@@ -58,5 +68,17 @@ div {
   display: block;
   width: 500px;
   text-align: center;
+  margin: 30px;
+}
+footer section {
+  display: flex;
+  flex-direction: row;
+}
+footer div {
+  padding: 10px 0px 10px 0px;
+  background-color: rgba(83, 125, 144, 0.8);
+  display: block;
+  width: 1100px;
+  text-align: left;
   margin: 30px;
 }
