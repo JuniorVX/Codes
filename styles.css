@@ -6,6 +6,9 @@ html {
   background-color: rgba(159, 210, 83, 0.9);
   background-image: url(./steklyannaya-mozaika-leon-mix4-velsy-mozaik.ua_.jpg);
 }
+* {
+transition: color 250ms lineaar;
+}
 main {
   width: 1200px;
   margin-left: 100px;
